@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bcpatrol">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BCPatrol">
+        <activity
+            android:name=".Add_LPM_Form"
+            android:exported="false" />
+        <activity
+            android:name=".LiveTrackingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LPMFormActivity"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY" />
+
+        <activity
+            android:name=".TAG_LMO_JalanNegara"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_LMO_POSKOLMO"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_SMO_WMP"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_SMO_POSKM75"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_SMO_GudangHandakAtasDNX"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_SMO_GudangHandakBawah"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_SMO_POSSimpangTasuk"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_SMO_DermagaSMO"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_SMO_OfficeSMO"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_LMO_EXPOS4"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_LMO_POS2"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_LMO_WMP14"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_LMO_WMP13"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_LMO_WMP10"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_LMO_WMP03"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_LMO_POS05"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_LMO_WMP07"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_LMO_EXRBA"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_LMO_KandangSapi"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_LMO_POS3"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_HOULINGGMO_KM300_GenanganAirSeamH"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_HOULINGGMO_KM300_GenanganAirSeamG"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_HOULINGGMO_KM300_GenanganAirSeamF"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_HOULINGGMO_KM300_GenanganAirDumblok"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_HOULINGGMO_KM300"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_HOULINGGMO_KM1800"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_HOULINGGMO_KM0400_JalanHouling"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_HOULINGGMO_KM0400_Timbangan"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_HOULINGGMO_KM0400"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_POS1GMO_Nursery"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_POS1GMO_BeachingPoint"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_POS1GMO_OfficePTJPC"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_POS1GMO_OfficePTBC"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_POS1GMO_Parkiran"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_POS1GMO_FuelStation"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_POS1GMO_Warehouse"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_POS1GMO_Jety"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_POS1GMO_CPP"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_POS1GMO_WMP1GT"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_POS1GMO_LampuLalinJalanNegara"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_POS1GMO_AlatDeteksiCurahHujan"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_BMO1KM1_GudangHandak"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_BMO1KM1_PosBMO1"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_BMO1KM1_PosKM1PTMTL"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_HO"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_BMO1KM28"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_BMO1KM1"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_SMO"
+            android:exported="false" />
+        <activity
+            android:name=".TAG_LMO"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_POSKM27"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_Dermaga_Suaran"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_POSGabSuaran"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_HaulingGMO"
+            android:exported="false" />
+        <activity
+            android:name=".SOS_POS1GMO"
+            android:exported="false" />
+        <activity
+            android:name=".TAGPatrolReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MBJPatrolReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SOSPatrolReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatrolReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

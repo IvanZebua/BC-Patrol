@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".TAG_SMO_OfficeSMO">
+
+        <TextView
+            android:id="@+id/tv_TAG_SMO_OSMO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sasaran Patroli Office SMO"
+            android:textColor="@color/green_berau"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_SMO_OSMO_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WMP 11"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_SMO_OSMO"/>
+        <EditText
+            android:id="@+id/et_TAG_SMO_OSMO_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_SMO_OSMO_1"/>
+        <Button
+            android:id="@+id/btn_TAG_SMO_OSMO_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_SMO_OSMO_1"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_SMO_OSMO_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Office CMP"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_SMO_OSMO_1"/>
+        <EditText
+            android:id="@+id/et_TAG_SMO_OSMO_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_SMO_OSMO_2"/>
+        <Button
+            android:id="@+id/btn_TAG_SMO_OSMO_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_SMO_OSMO_2"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_SMO_OSMO_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Warehouse"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_SMO_OSMO_2"/>
+        <EditText
+            android:id="@+id/et_TAG_SMO_OSMO_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_SMO_OSMO_3"/>
+        <Button
+            android:id="@+id/btn_TAG_SMO_OSMO_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_SMO_OSMO_3"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_SMO_OSMO_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Office CPP"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_SMO_OSMO_3"/>
+        <EditText
+            android:id="@+id/et_TAG_SMO_OSMO_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_SMO_OSMO_4"/>
+        <Button
+            android:id="@+id/btn_TAG_SMO_OSMO_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_SMO_OSMO_4"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_SMO_OSMO_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Office Elektrik"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_SMO_OSMO_4"/>
+        <EditText
+            android:id="@+id/et_TAG_SMO_OSMO_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_SMO_OSMO_5"/>
+        <Button
+            android:id="@+id/btn_TAG_SMO_OSMO_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_SMO_OSMO_5"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_SMO_OSMO_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Office GS"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_SMO_OSMO_5"/>
+        <EditText
+            android:id="@+id/et_TAG_SMO_OSMO_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_SMO_OSMO_6"/>
+        <Button
+            android:id="@+id/btn_TAG_SMO_OSMO_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_SMO_OSMO_6"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_SMO_OSMO_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Workshop"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_SMO_OSMO_6"/>
+        <EditText
+            android:id="@+id/et_TAG_SMO_OSMO_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_SMO_OSMO_7"/>
+        <Button
+            android:id="@+id/btn_TAG_SMO_OSMO_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_SMO_OSMO_7"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_SMO_OSMO_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gudang Kapur/Kompos"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_SMO_OSMO_7"/>
+        <EditText
+            android:id="@+id/et_TAG_SMO_OSMO_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_SMO_OSMO_8"/>
+        <Button
+            android:id="@+id/btn_TAG_SMO_OSMO_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_SMO_OSMO_8"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_SMO_OSMO_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gudang Enviro"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_SMO_OSMO_8"/>
+        <EditText
+            android:id="@+id/et_TAG_SMO_OSMO_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_SMO_OSMO_9"/>
+        <Button
+            android:id="@+id/btn_TAG_SMO_OSMO_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_SMO_OSMO_9"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_SMO_OSMO_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Office SMO"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_SMO_OSMO_9"/>
+        <EditText
+            android:id="@+id/et_TAG_SMO_OSMO_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_SMO_OSMO_10"/>
+        <Button
+            android:id="@+id/btn_TAG_SMO_OSMO_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_SMO_OSMO_10"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_SMO_OSMO_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Depo Air"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_SMO_OSMO_10"/>
+        <EditText
+            android:id="@+id/et_TAG_SMO_OSMO_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_SMO_OSMO_11"/>
+        <Button
+            android:id="@+id/btn_TAG_SMO_OSMO_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_SMO_OSMO_11"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_SMO_OSMO_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dapur ABR"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_SMO_OSMO_11"/>
+        <EditText
+            android:id="@+id/et_TAG_SMO_OSMO_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_SMO_OSMO_12"/>
+        <Button
+            android:id="@+id/btn_TAG_SMO_OSMO_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_SMO_OSMO_12"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_SMO_OSMO_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Office FIM"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_SMO_OSMO_12"/>
+        <EditText
+            android:id="@+id/et_TAG_SMO_OSMO_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_SMO_OSMO_13"/>
+        <Button
+            android:id="@+id/btn_TAG_SMO_OSMO_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_SMO_OSMO_13"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_SMO_OSMO_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Office AC dan KBS"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_SMO_OSMO_13"/>
+        <EditText
+            android:id="@+id/et_TAG_SMO_OSMO_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_SMO_OSMO_14"/>
+        <Button
+            android:id="@+id/btn_TAG_SMO_OSMO_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_SMO_OSMO_14"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_SMO_OSMO_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Koperasi"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_SMO_OSMO_14"/>
+        <EditText
+            android:id="@+id/et_TAG_SMO_OSMO_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_SMO_OSMO_15"/>
+        <Button
+            android:id="@+id/btn_TAG_SMO_OSMO_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_SMO_OSMO_15"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BC Patrol</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_live_tracking">LiveTracking</string>
+    <string-array name="Keterangan_TAG_HO">
+        <item>pilihan 1</item>
+        <item>pilihan 2</item>
+        <item>pilihan 3</item>
+        <item>pilihan 4</item>
+    </string-array>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/drawable/back_btn.xml" value="0.1775" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/drawable/ic_action_add_24dp.xml" value="0.2005" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/drawable/shape_image_view_border.xml" value="0.2005" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_add_lpm_form.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_live_tracking.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_login.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_lpmform.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_main2.xml" value="0.1265625" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_mbjpatrol_report.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_patrol_report.xml" value="0.264" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_register.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_dermaga_suaran.xml" value="0.1265625" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_hauling_gmo.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_houlinggmo_km0400.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_houlinggmo_km0400_jalan_houling.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_houlinggmo_km0400_timbangan.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_houlinggmo_km1800.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_houlinggmo_km300.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_houlinggmo_km300_genangan_air_dumblok.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_houlinggmo_km300_genangan_air_seam_f.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_houlinggmo_km300_genangan_air_seam_g.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_houlinggmo_km300_genangan_air_seam_h.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_pos1_gmo.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_pos1_gmo_alat_deteksi_curah_hujan.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_pos1_gmo_beaching_point.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_pos1_gmo_cpp.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_pos1_gmo_fuel_station.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_pos1_gmo_jety.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_pos1_gmo_lampu_lalin_jalan_negara.xml" value="0.23236331569664903" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_pos1_gmo_nursery.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_pos1_gmo_office_ptbc.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_pos1_gmo_office_ptjpc.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_pos1_gmo_parkiran.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_pos1_gmo_warehouse.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_pos1_gmo_wmp1_gt.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sos_posgab_suaran.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_sospatrol_report.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_bmo1_km1.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_bmo1_km1_gudang_handak.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_bmo1_km1_pos_bmo1.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_bmo1_km1_pos_km1_ptmtl.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_bmo1_km28.xml" value="0.19066570188133142" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_ho.xml" value="0.19533762057877813" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_lmo.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_lmo_expos4.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_lmo_exrba.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_lmo_jalan_negara.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_lmo_kandang_sapi.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_lmo_pos05.xml" value="0.2657589510842158" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_lmo_pos2.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_lmo_pos3.xml" value="0.26166832174776566" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_lmo_poskolmo.xml" value="0.2657589510842158" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_lmo_wmp03.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_lmo_wmp07.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_lmo_wmp10.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_lmo_wmp13.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_lmo_wmp14.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_smo.xml" value="0.2604166666666667" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_smo_dermaga_smo.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_smo_gudang_handak_atas_dnx.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_smo_gudang_handak_bawah.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_smo_office_smo.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_smo_poskm75.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_smo_possimpang_tasuk.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tag_smo_wmp.xml" value="0.24730173627404975" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/activity_tagpatrol_report.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/dropdown_tag_ho.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/layout/fragment_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio Project/BCPatrol/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2005" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

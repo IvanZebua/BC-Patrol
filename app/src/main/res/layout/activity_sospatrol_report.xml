@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SOSPatrolReportActivity">
+
+    <TextView
+        android:id="@+id/SOSMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOS Menu"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/green_berau"
+        android:gravity="center"
+        app:layout_editor_absoluteY="60dp"/>
+
+    <Button
+        android:id="@+id/btn_POS_1_GMO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POS 1 GMO"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/SOSMenu"/>
+
+    <Button
+        android:id="@+id/btn_Hauling_GMO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HAULING GMO"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_POS_1_GMO"/>
+
+    <Button
+        android:id="@+id/btn_POS_Gab_Suaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PATROLI LV 437 Pos Gab Suaran"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Hauling_GMO"/>
+
+    <Button
+        android:id="@+id/btn_POS_Dermaga_Suaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pos Dermaga Suaran"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_POS_Gab_Suaran"/>
+
+    <Button
+        android:id="@+id/btn_POS_KM_27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POS KM 27"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_POS_Dermaga_Suaran"/>
+
+    <Button
+        android:id="@+id/btn_BMO_2_Blok_07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMO 2 Blok-07"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_POS_KM_27"/>
+
+    <Button
+        android:id="@+id/btn_BMO_2_Blok_08"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMO 2 Blok-08"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_BMO_2_Blok_07"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

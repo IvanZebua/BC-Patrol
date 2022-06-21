@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "668367492336",
+    "project_id": "bc-patrol",
+    "storage_bucket": "bc-patrol.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668367492336:android:c18985a0a32a6de8559e35",
+        "android_client_info": {
+          "package_name": "com.example.bcpatrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668367492336-jn62p63s8r8jrdjfl3hq1dmrk12kqd0o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bcpatrol",
+            "certificate_hash": "b31a4c2e2d1a5050aef7cefaaab74dc6c12162e2"
+          }
+        },
+        {
+          "client_id": "668367492336-66gosi28l09s352nmvb8i2dh3pk87k05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm5XhcN2Z-8av3gDuUympvJ02PrjOeEAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668367492336-66gosi28l09s352nmvb8i2dh3pk87k05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

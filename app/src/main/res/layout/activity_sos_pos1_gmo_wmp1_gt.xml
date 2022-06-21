@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SOS_POS1GMO_WMP1GT">
+
+        <TextView
+            android:id="@+id/tv_ListPatroliWMP1GT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List Patroli WMP 1 GT"
+            android:textColor="@color/green_berau"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_ListPatroliWMP1GT_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rambu Larangan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ListPatroliWMP1GT"/>
+        <EditText
+            android:id="@+id/et_ListPatroliWMP1GT_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ListPatroliWMP1GT_1"/>
+        <Button
+            android:id="@+id/btn_ListPatroliWMP1GT_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_ListPatroliWMP1GT_1"/>
+
+        <TextView
+            android:id="@+id/tv_ListPatroliWMP1GT_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Papan Monitoring"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_ListPatroliWMP1GT_1"/>
+        <EditText
+            android:id="@+id/et_ListPatroliWMP1GT_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ListPatroliWMP1GT_2"/>
+        <Button
+            android:id="@+id/btn_ListPatroliWMP1GT_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_ListPatroliWMP1GT_2"/>
+
+        <TextView
+            android:id="@+id/tv_ListPatroliWMP1GT_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Outlet/PintuDAM"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_ListPatroliWMP1GT_2"/>
+        <EditText
+            android:id="@+id/et_ListPatroliWMP1GT_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ListPatroliWMP1GT_3"/>
+        <Button
+            android:id="@+id/btn_ListPatroliWMP1GT_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_ListPatroliWMP1GT_3"/>
+
+        <TextView
+            android:id="@+id/tv_ListPatroliWMP1GT_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Draft Air"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_ListPatroliWMP1GT_3"/>
+        <EditText
+            android:id="@+id/et_ListPatroliWMP1GT_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ListPatroliWMP1GT_4"/>
+        <Button
+            android:id="@+id/btn_ListPatroliWMP1GT_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_ListPatroliWMP1GT_4"/>
+
+        <TextView
+            android:id="@+id/tv_ListPatroliWMP1GT_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sendimenpont"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_ListPatroliWMP1GT_4"/>
+        <EditText
+            android:id="@+id/et_ListPatroliWMP1GT_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ListPatroliWMP1GT_5"/>
+        <Button
+            android:id="@+id/btn_ListPatroliWMP1GT_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_ListPatroliWMP1GT_5"/>
+
+        <TextView
+            android:id="@+id/tv_ListPatroliWMP1GT_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gudang Kapur"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_ListPatroliWMP1GT_5"/>
+        <EditText
+            android:id="@+id/et_ListPatroliWMP1GT_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ListPatroliWMP1GT_6"/>
+        <Button
+            android:id="@+id/btn_ListPatroliWMP1GT_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_ListPatroliWMP1GT_6"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SOS_POS1GMO">
+
+        <TextView
+            android:id="@+id/SOS_POS1_ListMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List Menu Patroli POS 1 \n GMO "
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:gravity="center"
+            app:layout_editor_absoluteY="60dp"/>
+
+        <Button
+            android:id="@+id/btn_SOS_POS1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alat Deteksi Curah Hujan"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/SOS_POS1_ListMenu"/>
+
+        <Button
+            android:id="@+id/btn_SOS_POS1_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lampu Lalin Jalan Negara"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_SOS_POS1_1"/>
+
+        <Button
+            android:id="@+id/btn_SOS_POS1_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WMP 1 GT"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_SOS_POS1_2"/>
+
+        <Button
+            android:id="@+id/btn_SOS_POS1_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CPP"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_SOS_POS1_3"/>
+
+        <Button
+            android:id="@+id/btn_SOS_POS1_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jety"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_SOS_POS1_4"/>
+
+        <Button
+            android:id="@+id/btn_SOS_POS1_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Warehouse"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_SOS_POS1_5"/>
+
+        <Button
+            android:id="@+id/btn_SOS_POS1_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fuel Station"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_SOS_POS1_6"/>
+
+        <Button
+            android:id="@+id/btn_SOS_POS1_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parkiran"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_SOS_POS1_7"/>
+
+        <Button
+            android:id="@+id/btn_SOS_POS1_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Office PT. BC"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_SOS_POS1_8"/>
+
+        <Button
+            android:id="@+id/btn_SOS_POS1_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Office PT. JPC"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_SOS_POS1_9"/>
+
+        <Button
+            android:id="@+id/btn_SOS_POS1_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beaching Point"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_SOS_POS1_10"/>
+
+        <Button
+            android:id="@+id/btn_SOS_POS1_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nursery"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_SOS_POS1_11"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

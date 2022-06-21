@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TAG_BMO1KM1">
+
+    <TextView
+        android:id="@+id/tv_listpatrolibmo1km1menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Patroli BMO1 \n KM 1 Menu"
+        android:textColor="@color/green_berau"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_editor_absoluteY="60dp"/>
+
+    <Button
+        android:id="@+id/btn_POSKM1PTMTL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pos KM 1 PT MTL"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_listpatrolibmo1km1menu"/>
+
+    <Button
+        android:id="@+id/btn_POSKM1BMO1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POS km 1 BMO1"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_POSKM1PTMTL"/>
+
+    <Button
+        android:id="@+id/btn_GudangHandakBMO1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Area POS Gudang Handak BMO1"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_POSKM1BMO1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

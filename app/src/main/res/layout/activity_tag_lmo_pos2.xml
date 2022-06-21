@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".TAG_LMO_POS2">
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_POS2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sasaran Patroli POS 2"
+            android:textColor="@color/green_berau"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_POS2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pompa Air"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_POS2"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_POS2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_POS2_1"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_POS2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_POS2_1"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_POS2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Panel Pompa"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_POS2_1"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_POS2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_POS2_2"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_POS2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_POS2_2"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_POS2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tempat Pencucian LV"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_POS2_2"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_POS2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_POS2_3"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_POS2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_POS2_3"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_POS2_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lampu Sorot Pencucian LV"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_POS2_3"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_POS2_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_POS2_4"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_POS2_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_POS2_4"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_POS2_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gudang Barang Bekas"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_POS2_4"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_POS2_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_POS2_5"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_POS2_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_POS2_5"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_POS2_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dermaga Sandaran Kapal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_POS2_5"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_POS2_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_POS2_6"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_POS2_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_POS2_6"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_POS2_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Banker Pengisian BBM"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_POS2_6"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_POS2_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_POS2_7"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_POS2_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_POS2_7"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_POS2_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deka Meter"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_POS2_7"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_POS2_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_POS2_8"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_POS2_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_POS2_8"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_POS2_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POS Security Sebelah Banker"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_POS2_8"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_POS2_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_POS2_9"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_POS2_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_POS2_9"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_POS2_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plang Dilarang Memancing/Berenang"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_POS2_9"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_POS2_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_POS2_10"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_POS2_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_POS2_10"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_POS2_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plang Wajib Pelampung"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_POS2_10"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_POS2_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_POS2_11"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_POS2_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_POS2_11"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_POS2_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lampu Sorot Jalan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_POS2_11"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_POS2_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_POS2_12"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_POS2_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_POS2_12"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_POS2_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masuk POS 2 Baru"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_POS2_12"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_POS2_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_POS2_13"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_POS2_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_POS2_13"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_POS2_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lampu Sorot Dibanker Pengisian BBM"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_POS2_13"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_POS2_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_POS2_14"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_POS2_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_POS2_14"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_POS2_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lampu Sorot POS Security"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_POS2_14"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_POS2_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_POS2_15"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_POS2_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_POS2_15"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MBJPatrolReportActivity">
+        <TextView
+            android:id="@+id/MBJMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MBJ Menu"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:gravity="center"
+            app:layout_editor_absoluteY="60dp"/>
+
+        <Button
+            android:id="@+id/Patroli_812"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patroli 812"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/MBJMenu"/>
+
+        <Button
+            android:id="@+id/Patroli_Dermaga1_sampai_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patroli Dermaga 1-4"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/Patroli_812"/>
+
+        <Button
+            android:id="@+id/Patroli_POS_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patroli POS 6 BMO 1"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/Patroli_Dermaga1_sampai_4"/>
+
+        <Button
+            android:id="@+id/Office_BMO_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Office BMO 1"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/Patroli_POS_6"/>
+
+        <Button
+            android:id="@+id/PMO_LV_810_dan_BPL_AREA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patroli Mobile PMO LV 810 dan BPL AREA"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/Office_BMO_1"/>
+
+        <Button
+            android:id="@+id/POS_BTC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POS BTC"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/PMO_LV_810_dan_BPL_AREA"/>
+
+        <Button
+            android:id="@+id/POS_BCP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POS BCP (Dermaga Cinta)"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/POS_BTC"/>
+
+        <Button
+            android:id="@+id/POS_BI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patroli Mess Berau Indah"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/POS_BCP"/>
+
+        <Button
+            android:id="@+id/POS_Samburakat_LMO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POS Samburakat LMO"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/POS_BI"/>
+
+        <Button
+            android:id="@+id/POS_GAB_Birang_SMO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POS Gabungan Birang SMO"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/POS_Samburakat_LMO"/>
+
+        <Button
+            android:id="@+id/Lanud_BMO_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POS LANUD BMO 2"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/POS_GAB_Birang_SMO"/>
+
+        <Button
+            android:id="@+id/Logging_BMO_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POS Logging BMO 2"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/Lanud_BMO_2"/>
+
+        <Button
+            android:id="@+id/Office_BMO_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Office_BMO_2"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/green_berau"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/Logging_BMO_2"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

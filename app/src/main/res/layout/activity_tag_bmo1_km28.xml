@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".TAG_BMO1KM28">
+
+        <TextView
+            android:id="@+id/tv_TAG_BMO1KM28_sasaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sasaran Patroli BMO1 KM 28"
+            android:textColor="@color/green_berau"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_BMO1KM28_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tempat Penyimpanan Ban Baru"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_BMO1KM28_sasaran"/>
+        <EditText
+            android:id="@+id/et_TAG_BMO1KM28_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_BMO1KM28_1"/>
+        <LinearLayout
+            android:id="@+id/ll_TAG_BMO1KM28_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_BMO1KM28_1">
+
+            <TextView
+                android:id="@+id/tv_TAG_BMO1KM28_1_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="19/5/2022 08:10"
+                android:padding="5dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_TAG_BMO1KM28_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Sudah Patroli" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_TAG_BMO1KM28_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tempat Penyimpanan Spart Part"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/ll_TAG_BMO1KM28_1"/>
+        <EditText
+            android:id="@+id/et_TAG_BMO1KM28_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_BMO1KM28_2"/>
+        <LinearLayout
+            android:id="@+id/ll_TAG_BMO1KM28_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_BMO1KM28_2">
+
+            <TextView
+                android:id="@+id/tv_TAG_BMO1KM28_2_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="19/5/2022 08:10"
+                android:padding="5dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_TAG_BMO1KM28_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Sudah Patroli" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_TAG_BMO1KM28_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parkiran LV"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/ll_TAG_BMO1KM28_2"/>
+        <EditText
+            android:id="@+id/et_TAG_BMO1KM28_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_BMO1KM28_3"/>
+        <LinearLayout
+            android:id="@+id/ll_TAG_BMO1KM28_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_BMO1KM28_3">
+
+            <TextView
+                android:id="@+id/tv_TAG_BMO1KM28_3_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="19/5/2022 08:10"
+                android:padding="5dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_TAG_BMO1KM28_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Sudah Patroli" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_TAG_BMO1KM28_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tempat Pencucian Unit"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/ll_TAG_BMO1KM28_3"/>
+        <EditText
+            android:id="@+id/et_TAG_BMO1KM28_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_BMO1KM28_4"/>
+        <LinearLayout
+            android:id="@+id/ll_TAG_BMO1KM28_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_BMO1KM28_4">
+
+            <TextView
+                android:id="@+id/tv_TAG_BMO1KM28_4_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="19/5/2022 08:10"
+                android:padding="5dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_TAG_BMO1KM28_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Sudah Patroli" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_TAG_BMO1KM28_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mesin Genset"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/ll_TAG_BMO1KM28_4"/>
+        <EditText
+            android:id="@+id/et_TAG_BMO1KM28_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_BMO1KM28_5"/>
+        <LinearLayout
+            android:id="@+id/ll_TAG_BMO1KM28_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_BMO1KM28_5">
+
+            <TextView
+                android:id="@+id/tv_TAG_BMO1KM28_5_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="19/5/2022 08:10"
+                android:padding="5dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_TAG_BMO1KM28_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Sudah Patroli" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_TAG_BMO1KM28_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tempat Alat-alat Mekanik"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/ll_TAG_BMO1KM28_5"/>
+        <EditText
+            android:id="@+id/et_TAG_BMO1KM28_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_BMO1KM28_6"/>
+        <LinearLayout
+            android:id="@+id/ll_TAG_BMO1KM28_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_BMO1KM28_6">
+
+            <TextView
+                android:id="@+id/tv_TAG_BMO1KM28_6_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="19/5/2022 08:10"
+                android:padding="5dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_TAG_BMO1KM28_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Sudah Patroli" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_TAG_BMO1KM28_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACI 8 Unit"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/ll_TAG_BMO1KM28_6"/>
+        <EditText
+            android:id="@+id/et_TAG_BMO1KM28_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_BMO1KM28_7"/>
+        <LinearLayout
+            android:id="@+id/ll_TAG_BMO1KM28_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_BMO1KM28_7">
+
+            <TextView
+                android:id="@+id/tv_TAG_BMO1KM28_7_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="19/5/2022 08:10"
+                android:padding="5dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_TAG_BMO1KM28_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Sudah Patroli" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_TAG_BMO1KM28_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APAR 10 Unit"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/ll_TAG_BMO1KM28_7"/>
+        <EditText
+            android:id="@+id/et_TAG_BMO1KM28_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_BMO1KM28_8"/>
+        <LinearLayout
+            android:id="@+id/ll_TAG_BMO1KM28_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_BMO1KM28_8">
+
+            <TextView
+                android:id="@+id/tv_TAG_BMO1KM28_8_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="19/5/2022 08:10"
+                android:padding="5dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_TAG_BMO1KM28_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Sudah Patroli" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_TAG_BMO1KM28_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CCTV 1 Unit"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/ll_TAG_BMO1KM28_8"/>
+        <EditText
+            android:id="@+id/et_TAG_BMO1KM28_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_BMO1KM28_9"/>
+        <LinearLayout
+            android:id="@+id/ll_TAG_BMO1KM28_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_BMO1KM28_9">
+
+            <TextView
+                android:id="@+id/tv_TAG_BMO1KM28_9_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="19/5/2022 08:10"
+                android:padding="5dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_TAG_BMO1KM28_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Sudah Patroli" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_TAG_BMO1KM28_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tower"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/ll_TAG_BMO1KM28_9"/>
+        <EditText
+            android:id="@+id/et_TAG_BMO1KM28_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_BMO1KM28_10"/>
+        <LinearLayout
+            android:id="@+id/ll_TAG_BMO1KM28_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_BMO1KM28_10">
+
+            <TextView
+                android:id="@+id/tv_TAG_BMO1KM28_10_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="19/5/2022 08:10"
+                android:padding="5dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_TAG_BMO1KM28_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Sudah Patroli" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_TAG_BMO1KM28_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tempat Penumpukan Ban Bekas dan Besi Tua"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/ll_TAG_BMO1KM28_10"/>
+        <EditText
+            android:id="@+id/et_TAG_BMO1KM28_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_BMO1KM28_11"/>
+        <LinearLayout
+            android:id="@+id/ll_TAG_BMO1KM28_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_BMO1KM28_11">
+
+            <TextView
+                android:id="@+id/tv_TAG_BMO1KM28_11_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="19/5/2022 08:10"
+                android:padding="5dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_TAG_BMO1KM28_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Sudah Patroli" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_TAG_BMO1KM28_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wahsing Pat Pit Stop KM 28"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/ll_TAG_BMO1KM28_11"/>
+        <EditText
+            android:id="@+id/et_TAG_BMO1KM28_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_BMO1KM28_12"/>
+        <LinearLayout
+            android:id="@+id/ll_TAG_BMO1KM28_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_BMO1KM28_12">
+
+            <TextView
+                android:id="@+id/tv_TAG_BMO1KM28_12_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="19/5/2022 08:10"
+                android:padding="5dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_TAG_BMO1KM28_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Sudah Patroli" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_TAG_BMO1KM28_Submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:text="Submit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll_TAG_BMO1KM28_12"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TAG_SMO">
+
+    <TextView
+        android:id="@+id/tv_SMOMENU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMO List Menu"
+        android:textColor="@color/green_berau"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_editor_absoluteY="60dp"/>
+
+    <Button
+        android:id="@+id/btn_officeSMO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Office SMO"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_SMOMENU"/>
+
+    <Button
+        android:id="@+id/btn_dermagaSMO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dermaga SMO"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_officeSMO"/>
+
+    <Button
+        android:id="@+id/btn_possimpangtasuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POS Simpang Tasuk"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_dermagaSMO"/>
+
+    <Button
+        android:id="@+id/btn_gudanghandakbawah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gudang Handak bawah"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_possimpangtasuk"/>
+
+    <Button
+        android:id="@+id/btn_gudanghandakatasDNX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gudang Handak Atas DNX"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_gudanghandakbawah"/>
+
+    <Button
+        android:id="@+id/btn_poskm75"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POS KM 75"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_gudanghandakatasDNX"/>
+
+    <Button
+        android:id="@+id/btn_wmpLMO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WMP"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green_berau"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_poskm75"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

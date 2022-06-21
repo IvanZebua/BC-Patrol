@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".TAG_LMO_WMP10">
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_WMP10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sasaran Patroli WMP 10"
+            android:textColor="@color/green_berau"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_WMP10_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plang Rambu Larangan Memancing/Berengan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_WMP10"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_WMP10_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_WMP10_1"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_WMP10_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_WMP10_1"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_WMP10_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pintu Air"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_WMP10_1"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_WMP10_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_WMP10_2"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_WMP10_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_WMP10_2"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_WMP10_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gudang Kapur"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_WMP10_2"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_WMP10_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_WMP10_3"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_WMP10_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_WMP10_3"/>
+
+        <TextView
+            android:id="@+id/tv_TAG_LMO_WMP10_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lampu Sorot"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_berau"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_TAG_LMO_WMP10_3"/>
+        <EditText
+            android:id="@+id/et_TAG_LMO_WMP10_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_TAG_LMO_WMP10_4"/>
+        <Button
+            android:id="@+id/btn_TAG_LMO_WMP10_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Patroli"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_TAG_LMO_WMP10_4"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
